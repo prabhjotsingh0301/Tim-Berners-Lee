@@ -1,0 +1,42 @@
+#menu{
+    display:inline-flex;
+    list-style:none;
+    font-family: 'PT Sans', sans-serif;
+}
+#menu li{
+    padding:10px;
+    font-size:25px;
+    padding-right:30px;
+}
+#menu_box{
+    box-shadow:0px 2px 5px black;
+    display:flex;
+    justify-content:flex-end;
+}
+body{
+    margin:0;
+    padding:0;
+}
+#intro img{
+    width: 500px;
+    border-radius:20px;
+}
+#intro{
+    text-align:center;
+    padding: 50px;
+    background:linear-gradient(#8e8cb3,#e1e1e1)
+}
+#intro h1{
+    font-size:50px;
+    font-family: 'Yusei Magic', sans-serif;
+    color:#1f1f1f;
+    font-variant: small-caps;
+    letter-spacing:5px;
+}
+#intro h3{
+    font-size:30px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: 300;
+    letter-spacing:2px;
+    color:#5f5f5f
+}
