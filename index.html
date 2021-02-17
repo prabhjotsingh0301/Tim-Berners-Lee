@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tim Berners Lee</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Yusei+Magic&display=swap" rel="stylesheet">  
-    </head>
-    <body>
-        <div id="menu_box">
+
+<head>
+    <title>Tim Berners Lee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="menu_box">
         <ul id="menu">
-           <li>Home</li>
-           <li>My Videos</li>
-           <li>Work</li>
-           <li>Writings</li>
-           <li>Contacts</li>
-       </ul> 
-        </div>
-        <section id="intro">
-            <img src="Tim%20Berners%20Lee.jpg" alt="">
-            <h1>I Am
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#my_videos">My Videos</a></li>
+            <li><a href="#my_work">Work</a></li>
+            <li><a href="#writings">Writings</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </div>
+    <section id="intro">
+        <img src="Tim%20Berners%20Lee.jpg" alt="">
+        <h1>I Am
             <br>
             Tim Berners Lee
-            </h1>
-            <h3>I am the founder of www: World Wide Web</h3>
-        </section>
-    </body>
+        </h1>
+        <h3>I am the founder of www: World Wide Web</h3>
+    </section>
+    <section id="bio">
+        <h1>About</h1>
+        <p>Sir Tim Berners-Lee invented the World Wide Web in 1989.
+            <br>
+            <br>
+            He is the co-founder and CTO of Inrupt.com, a tech start-up which uses, promotes and helps develop the open source Solid platform. Solid aims to give people control and agency over their data, questioning many assumptions about how the web has to work. Solid technically is is new level of standard at the web layer, which adds things never put into the original spec, such as global single sign-on, universal access control, and a universal data API so that any app can store data in any storage place. Socially Solid is a movement away from much of the issues with the current WWW, and toward a world in which users are in control, and empowered by large amounts of data, private, shared, and public.
+            <br>
+            <br>
+            Sir Tim is the Director of the World Wide Web Consortium (W3C), a Web standards organization founded in 1994 which develops interoperable technologies (specifications, guidelines, software, and tools) to lead the Web to its full potential. He is a Director of the World Wide Web Foundation which was launched in 2009 to coordinate efforts to further the potential of the Web to benefit humanity.
+        </p>
+    </section>
+    <section id="my_videos">
+        <h1>My Videos</h1>
+        <div>
+            <iframe width="700" height="350" src="https://www.youtube.com/embed/2zy7Vb9sJw8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr style="width:700px">
+            <h3>Internet Hall Of Fame Innovator</h3>
+        </div>
+        <div>
+            <iframe width="700" height="350" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr style="width:700px">
+            <h3>Tim Berners-Lee: The next Web of open, linked data</h3>
+        </div>
+    </section>
+    <section id="my_work">
+        <h1>My Work</h1>
+        <div>
+            <iframe src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" width=700 height=1000 frameborder="0"></iframe>
+        </div>
+
+    </section>
+    <section id="writings">
+        <h1>Articles</h1>
+        <ul class="articles">
+            <li><a href="https://www.nytimes.com/2019/11/24/opinion/world-wide-web.html" target="_blank">I Invented the World Wide Web. Here’s How We Can Fix It, OpEd, New York Times, 24 November 2019</a></li>
+            <li><a href="https://webfoundation.org/2020/03/web-birthday-31/" target="_blank">Why the web needs to work for women and girls, The World Wide Web Foundation, 2020</a></li>
+            <li><a href="https://www.theguardian.com/commentisfree/2020/jun/04/covid-19-internet-universal-right-lockdown-online" target="_blank">Covid-19 makes it clearer than ever: access to the internet should be a universal right, The Guardian, 4 June 2020</a></li>
+            <li><a href="https://qz.com/1872591/tim-berners-lee-on-the-future-impacted-by-coronavirus/" target="_blank">Tim Berners-Lee thinks the world can be better after Covid-19, Quartz, 30 June 2020</a></li>
+            <li><a href="https://time.com/5867314/we-need-to-change-how-we-share-our-personal-data-online-in-the-age-of-covid-19/" target="_blank">We Need to Change How We Share Our Personal Data Online in the Age of COVID-19, Time magazine, 15 July 2020</a></li>
+        </ul>
+    </section>
+    <section id="contact">
+        <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.0888998098735!2d-71.09263184869859!3d42.36194464287253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a94526b345%3A0x303ada1e9664dfed!2sMIT%20Computer%20Science%20%26%20Artificial%20Intelligence%20Laboratory!5e0!3m2!1sen!2sus!4v1613090914126!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div id="social-media">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-google"></i></a>
+            <a href="mailto:cos@timbl.com?Subject=hi"><i class="fa fa-envelope"></i></a>
+            <a href="https://twitter.com/timberners_lee?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>            
+        </div>
+    </section>
+</body>
+
 </html>

@@ -12,10 +12,25 @@
     box-shadow:0px 2px 5px black;
     display:flex;
     justify-content:flex-end;
+        position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255,0.9)
+}
+#menu a{
+    text-decoration:none;
+    color:aquamarine;
+    font-weight:bold;
+}
+#menu li:hover{
+    background:black;
+    color:white;
 }
 body{
     margin:0;
     padding:0;
+    text-align:center;
 }
 #intro img{
     width: 500px;
@@ -39,4 +54,103 @@ body{
     font-weight: 300;
     letter-spacing:2px;
     color:#5f5f5f
+}
+#bio{
+    max-width:700px;
+    margin:auto;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+#bio h1{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:30px;
+}
+#bio p{
+    line-height:1.5;
+    font-size:17px;
+    text-align:justify;
+    font-family: 'Montserrat', sans-serif;
+}
+#my_videos div{
+    width:720px;
+    margin:auto;
+    box-shadow:0px 0px 5px grey;
+    padding-top:20px;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    background-color:white;
+}
+#my_videos h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:30px;
+}
+#my_videos h3{
+    font-family: 'Montserrat', sans-serif;
+}
+#my_videos{
+    background-color:rgba(100,100,0,0.5);
+   padding-top:20px;
+   padding-bottom:20px;
+}
+#my_work h1{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:30px;
+}
+#my_work div{
+    width:720px;
+    margin:auto;
+    box-shadow:0px 0px 5px grey;
+    padding-top:20px;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    background-color:white;
+}
+#writings h1{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:30px;
+}
+.articles li{
+    padding:10px 0px;
+    font-size:20px;
+}
+.articles{
+    text-align:left;
+    list-style:none;
+    box-shadow:0px 0px 10px grey;
+    padding:20px;
+    width:720px;
+    margin:auto;
+}
+.articles a{
+    text-decoration:none;
+    color:darkslategrey;
+}
+.articles a:hover{
+    font-weight:bold;
+    color:black;
+}
+#writings{
+    margin-bottom:20px;
+}
+#social-media{
+    padding:50px;
+    background-color: darkslategrey;
+}
+#social-media a{
+    color:black;
+    font-size:35px;
+    margin-right:20px;
+    border:2px solid black;
+    text-decoration:none;
+    display:inline-block;
+    width:50px;
+    border-radius:10px;
+}
+#social-media a:hover{
+    color:white;
+    transform:scale(1.1);
+    border-color:white;
+}
+html{
+    scroll-behavior:smooth;
 }
